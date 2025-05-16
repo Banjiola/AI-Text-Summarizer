@@ -136,4 +136,4 @@ demo = gr.Interface(fn=summarize_ner,
                     )
 
 if __name__ == "__main__":
-    main()
+    demo.launch()
